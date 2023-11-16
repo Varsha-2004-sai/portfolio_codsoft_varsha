@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: hwb(0 6% 94%);
+    color: rgb(227, 249, 106);
+    text-align: center;
+    padding: 20px;
+}
+#about h2 {
+    color: #f6eeee; /* Change the color to your desired color */
+}
+
+#about {
+    background-color: #050000; /* Change the background color to a light gray */
+    color: hsl(0, 43%, 84%); /* Change the text color to dark gray */
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 43%, 84%);
+    padding: 10px;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: text;
+    color: hwb(312 0% 96%);
+}
+
+section {
+    padding: 40px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+}
+#portfolio {
+    background-color: hsl(0, 43%, 84%); /* Change the background color to a light gray */
+    color: hsl(0, 6%, 3%)text color to dark gray */
+}
+#contact{
+    background-color: #050000; /* Change the background color to a light gray */
+    color: hsl(0, 43%, 84%); /* Change the text color to dark gray */
+}
+
+/* #portfolio .project:nth-child(1) p {
+    color: hsl(11, 66%, 47%); /* Change the color to your desired color */
+/* } */ 
+
+/* Add more CSS styling as needed */
